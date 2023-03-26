@@ -20,6 +20,7 @@ body {
 }
 kbd {
   font-size: 3.5rem;
+  pointer-events: none;
 }
 .keys {
   display: flex;
@@ -45,4 +46,5 @@ kbd {
 }
 .key span {
   text-transform: uppercase;
+  pointer-events: none;
 }
